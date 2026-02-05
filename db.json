@@ -1,0 +1,433 @@
+{
+  "search-data": [
+    {
+      "id": "e2f8",
+      "mylocate": "Indore",
+      "mycheckin": "2026-02-27",
+      "mycheckout": "2026-02-28",
+      "rooms": 1,
+      "adults": 2,
+      "children": 8
+    },
+    {
+      "id": "f0d8",
+      "mylocate": "Indore",
+      "mycheckin": "2026-02-14",
+      "mycheckout": "2026-02-13",
+      "rooms": 2,
+      "adults": 2,
+      "children": 3
+    },
+    {
+      "id": "e74a",
+      "mylocate": "Bhopal",
+      "mycheckin": "2026-02-27",
+      "mycheckout": "2026-02-05",
+      "rooms": 5,
+      "adults": 4,
+      "children": 1
+    },
+    {
+      "id": "0271",
+      "mylocate": "Bhopal",
+      "mycheckin": "2026-02-05",
+      "mycheckout": "2026-02-06",
+      "rooms": 2,
+      "adults": 4,
+      "children": 2
+    },
+    {
+      "id": "927f",
+      "mylocate": "Bhopal",
+      "mycheckin": "2026-02-05",
+      "mycheckout": "2026-02-06",
+      "rooms": 2,
+      "adults": 2,
+      "children": 10
+    },
+    {
+      "id": "420b",
+      "mylocate": "Indore",
+      "mycheckin": "2026-02-20",
+      "mycheckout": "2026-02-21",
+      "rooms": 1,
+      "adults": 2,
+      "children": 1
+    },
+    {
+      "id": "2e4c",
+      "mylocate": "Indore",
+      "mycheckin": "2026-02-27",
+      "mycheckout": "2026-02-27",
+      "rooms": 1,
+      "adults": 1,
+      "children": 0
+    },
+    {
+      "id": "84f1",
+      "mylocate": "Bhopal",
+      "mycheckin": "2026-02-07",
+      "mycheckout": "2026-02-07",
+      "rooms": 2,
+      "adults": 4,
+      "children": 1
+    },
+    {
+      "id": "9dd9",
+      "mylocate": "Indore",
+      "mycheckin": "2026-02-19",
+      "mycheckout": "2026-02-12",
+      "rooms": 1,
+      "adults": 1,
+      "children": 0
+    },
+    {
+      "id": "2192",
+      "mylocate": "Bhopal",
+      "mycheckin": "2026-02-06",
+      "mycheckout": "2026-02-07",
+      "rooms": 1,
+      "adults": 1,
+      "children": 0
+    },
+    {
+      "id": "dbdc",
+      "mylocate": "Indore",
+      "mycheckin": "2026-02-14",
+      "mycheckout": "2026-02-21",
+      "rooms": 1,
+      "adults": 1,
+      "children": 0
+    },
+    {
+      "id": "f7eb",
+      "mylocate": "Bhopal",
+      "mycheckin": "2026-02-12",
+      "mycheckout": "2026-02-14",
+      "rooms": 1,
+      "adults": 1,
+      "children": 0
+    },
+    {
+      "id": "9694",
+      "mylocate": "Bhopal",
+      "mycheckin": "2026-02-05",
+      "mycheckout": "2026-02-07",
+      "rooms": 1,
+      "adults": 1,
+      "children": 0
+    }
+  ],
+  "hotels-data": [
+    {
+      "id": "11",
+      "name": "The Park Indore",
+      "city": "Indore",
+      "location": "Vijay Nagar | Near C21 Mall",
+      "rating": 5,
+      "reviewScore": 4.6,
+      "price": 8800,
+      "taxes": 1350,
+      "images": [
+        "https://images.unsplash.com/photo-1541971424271-ef6294673c2c"
+      ],
+      "benefits": [
+        "Nightclub Access",
+        "Luxury Spa",
+        "Breakfast included"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Effotel by Sayaji",
+      "city": "Indore",
+      "location": "Scheme No. 54",
+      "rating": 4,
+      "reviewScore": 4.2,
+      "price": 5500,
+      "taxes": 850,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a"
+      ],
+      "benefits": [
+        "Free Cancellation",
+        "Business Center"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Hotel Amer Palace",
+      "city": "Bhopal",
+      "location": "MP Nagar Zone 1",
+      "rating": 3,
+      "reviewScore": 3.8,
+      "price": 3200,
+      "taxes": 450,
+      "images": [
+        "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6"
+      ],
+      "benefits": [
+        "Centrally Located",
+        "Free Parking"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "The Fern Residency",
+      "city": "Bhopal",
+      "location": "ISBT Road",
+      "rating": 4,
+      "reviewScore": 4.1,
+      "price": 4800,
+      "taxes": 700,
+      "images": [
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af"
+      ],
+      "benefits": [
+        "Eco-friendly Stay",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Indore Marriott Hotel",
+      "city": "Indore",
+      "location": "HHI Compound, Vijay Nagar",
+      "rating": 5,
+      "reviewScore": 4.8,
+      "price": 11500,
+      "taxes": 1950,
+      "images": [
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9"
+      ],
+      "benefits": [
+        "Free Cancellation",
+        "Executive Lounge",
+        "Infinity Pool"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Ginger Hotel Indore",
+      "city": "Indore",
+      "location": "Near Railway Station",
+      "rating": 3,
+      "reviewScore": 3.7,
+      "price": 2900,
+      "taxes": 400,
+      "images": [
+        "https://images.unsplash.com/photo-1568495248636-6432b97bd949"
+      ],
+      "benefits": [
+        "Express Check-in",
+        "Free WiFi"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Jehan Numa Retreat",
+      "city": "Bhopal",
+      "location": "Near Van Vihar Park",
+      "rating": 5,
+      "reviewScore": 4.9,
+      "price": 14500,
+      "taxes": 2400,
+      "images": [
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7"
+      ],
+      "benefits": [
+        "Nature Trail",
+        "Farm-to-table Breakfast",
+        "Private Spa"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "FabHotel Prime",
+      "city": "Bhopal",
+      "location": "Habibganj",
+      "rating": 3,
+      "reviewScore": 3.5,
+      "price": 2100,
+      "taxes": 300,
+      "images": [
+        "https://images.unsplash.com/photo-1505773502005-9ca635d829f1"
+      ],
+      "benefits": [
+        "Budget Friendly",
+        "Morning Tea"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Brilliant Convention Centre",
+      "city": "Indore",
+      "location": "Sukhlia",
+      "rating": 4,
+      "reviewScore": 4.4,
+      "price": 7500,
+      "taxes": 1100,
+      "images": [
+        "https://images.unsplash.com/photo-1512918766671-ad650b9b732d"
+      ],
+      "benefits": [
+        "Airport Transfer",
+        "Breakfast included"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Treebo Trend Sunray",
+      "city": "Indore",
+      "location": "Bhanwar Kuwa",
+      "rating": 3,
+      "reviewScore": 3.9,
+      "price": 1800,
+      "taxes": 250,
+      "images": [
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa"
+      ],
+      "benefits": [
+        "Student Area",
+        "Free Parking"
+      ]
+    }
+  ],
+  "booking-data": [
+    {
+      "id": "3df4",
+      "hotelId": "15",
+      "hotelName": "Indore Marriott Hotel",
+      "title": "Mr",
+      "firstName": "jello",
+      "lastName": "kjfnskfns",
+      "email": "qw@gmail.com",
+      "countryCode": "+91",
+      "phone": "78208123187",
+      "gstDetails": true
+    },
+    {
+      "id": "18a2",
+      "hotelId": "11",
+      "hotelName": "The Park Indore",
+      "title": "Mr",
+      "firstName": "kjsfnkjsfn",
+      "lastName": "kjfnskfns",
+      "email": "qw@gmail.com",
+      "countryCode": "+91",
+      "phone": "78208123187",
+      "gstDetails": false
+    },
+    {
+      "id": "6c33",
+      "hotelId": "11",
+      "hotelName": "The Park Indore",
+      "title": "Mr",
+      "firstName": "kjsfnkjsfn",
+      "lastName": "kjfnskfns",
+      "email": "qw@gmail.com",
+      "countryCode": "+91",
+      "phone": "78208123187",
+      "gstDetails": false
+    },
+    {
+      "id": "54a8",
+      "hotelId": "11",
+      "hotelName": "The Park Indore",
+      "title": "Mr",
+      "firstName": "kjsfnkjsfn",
+      "lastName": "hiu",
+      "email": "hdeiuqhriukbgr",
+      "countryCode": "+91",
+      "phone": "78208123187",
+      "gstDetails": false
+    },
+    {
+      "id": "86c6",
+      "hotelId": "11",
+      "hotelName": "The Park Indore",
+      "title": "Mr",
+      "firstName": "hkhh",
+      "lastName": "jhbvjhbh",
+      "email": "t@gmail.com",
+      "countryCode": "+91",
+      "phone": "6758486481",
+      "gstDetails": false
+    },
+    {
+      "id": "d0a3",
+      "hotelId": "13",
+      "hotelName": "Hotel Amer Palace",
+      "title": "Mr",
+      "firstName": "Helo",
+      "lastName": "world",
+      "email": "qw@gmail.com",
+      "countryCode": "+91",
+      "phone": "78208123187",
+      "gstDetails": false
+    },
+    {
+      "id": "1029",
+      "hotelId": "11",
+      "hotelName": "The Park Indore",
+      "title": "Mr",
+      "firstName": "fklsmlksmf",
+      "lastName": "flksmflkms",
+      "email": "qw@gmail.com",
+      "countryCode": "+91",
+      "phone": "78208123187",
+      "gstDetails": false
+    },
+    {
+      "id": "04b0",
+      "hotelId": "13",
+      "hotelName": "Hotel Amer Palace",
+      "title": "Mr",
+      "firstName": "sachin",
+      "lastName": "mishra",
+      "email": "ayushbhoware@05gmail.com",
+      "countryCode": "+91",
+      "phone": "6758486480",
+      "gstDetails": false,
+      "loggedUser": "ayushbhoware@05gmail.com"
+    },
+    {
+      "id": "7055",
+      "hotelId": "13",
+      "hotelName": "Hotel Amer Palace",
+      "title": "Mr",
+      "firstName": "sachin",
+      "lastName": "mishra",
+      "email": "t@gmail.com",
+      "countryCode": "+91",
+      "phone": "6758486480",
+      "gstDetails": false
+    },
+    {
+      "id": "2b92",
+      "hotelId": "11",
+      "hotelName": "The Park Indore",
+      "title": "Mr",
+      "firstName": "sachin",
+      "lastName": "mishra",
+      "email": "t@gmail.com",
+      "countryCode": "+91",
+      "phone": "6758486480",
+      "gstDetails": false,
+      "loggedUser": "t@gmail.com"
+    },
+    {
+      "id": "c132",
+      "hotelId": "11",
+      "hotelName": "The Park Indore",
+      "title": "Mr",
+      "firstName": "rfhrfhyf",
+      "lastName": "ghfhh",
+      "email": "ayushbhoware@05gmail.com",
+      "countryCode": "+91",
+      "phone": "5463653653",
+      "gstDetails": false,
+      "loggedUser": "ayushbhoware@05gmail.com"
+    }
+  ]
+}

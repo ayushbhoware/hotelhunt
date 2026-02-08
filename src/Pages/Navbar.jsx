@@ -2,9 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(
-    localStorage.getItem("isLoggedIn") === "true",
-  );
+  const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -16,17 +14,9 @@ const Navbar = () => {
     return () => window.removeEventListener("storage", handleStorageChange);
   }, []);
 
-  const handleLogin = () => {
-    localStorage.setItem("isLoggedIn", "true");
-    localStorage.setItem("currentUser", JSON.stringify({ name: "John" }));
-    setIsLoggedIn(true);
-    navigate("/booking");
-  };
-
   const handleLogout = () => {
     localStorage.removeItem("isLoggedIn");
     localStorage.removeItem("currentUser");
-    setIsLoggedIn(false);
     navigate("/login");
   };
 
@@ -58,12 +48,12 @@ const Navbar = () => {
                 <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-purple-400 transition-all duration-300 group-hover:w-full"></span>
               </Link>
 
-              <button
-                onClick={handleLogin}
+              <Link
+                to="/login"
                 className="px-4 py-1.5 rounded-lg font-semibold text-black bg-gradient-to-r from-cyan-400 to-purple-400 hover:scale-105 transition-transform duration-300"
               >
                 Login
-              </button>
+              </Link>
             </>
           ) : (
             <button

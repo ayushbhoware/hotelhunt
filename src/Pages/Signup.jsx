@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import ColorBends from "../ColorBlends";
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
+  let navigate = useNavigate();
   const [form, setform] = useState({
     name: "",
     email: "",
@@ -42,7 +44,7 @@ const Signup = () => {
 
       users.push(form);
       localStorage.setItem("users", JSON.stringify(users));
-
+      navigate("/login");
       alert("Signup Success 🎉");
     }
   };

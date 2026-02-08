@@ -116,6 +116,33 @@
       "rooms": 1,
       "adults": 1,
       "children": 0
+    },
+    {
+      "id": "53ac",
+      "mylocate": "Indore",
+      "mycheckin": "2026-02-07",
+      "mycheckout": "2026-02-08",
+      "rooms": 1,
+      "adults": 1,
+      "children": 0
+    },
+    {
+      "id": "dc18",
+      "mylocate": "Indore",
+      "mycheckin": "2026-02-14",
+      "mycheckout": "2026-02-15",
+      "rooms": 1,
+      "adults": 1,
+      "children": 0
+    },
+    {
+      "id": "6834",
+      "mylocate": "Bhopal",
+      "mycheckin": "2026-02-12",
+      "mycheckout": "2026-02-13",
+      "rooms": 1,
+      "adults": 1,
+      "children": 0
     }
   ],
   "hotels-data": [
@@ -426,6 +453,19 @@
       "email": "ayushbhoware@05gmail.com",
       "countryCode": "+91",
       "phone": "5463653653",
+      "gstDetails": false,
+      "loggedUser": "ayushbhoware@05gmail.com"
+    },
+    {
+      "id": "b603",
+      "hotelId": "12",
+      "hotelName": "Effotel by Sayaji",
+      "title": "Mr",
+      "firstName": "cnjdksfkds",
+      "lastName": "fnvkjdfsh",
+      "email": "ayushbhoware@05gmail.com",
+      "countryCode": "+91",
+      "phone": "6456376888",
       "gstDetails": false,
       "loggedUser": "ayushbhoware@05gmail.com"
     }

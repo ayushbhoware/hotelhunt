@@ -7,67 +7,73 @@ const Navbar = () => {
   );
   const navigate = useNavigate();
 
-  // Listen to storage changes (for multiple tabs or reactive update)
   useEffect(() => {
     const handleStorageChange = () => {
       setIsLoggedIn(localStorage.getItem("isLoggedIn") === "true");
     };
 
     window.addEventListener("storage", handleStorageChange);
-
-    return () => {
-      window.removeEventListener("storage", handleStorageChange);
-    };
+    return () => window.removeEventListener("storage", handleStorageChange);
   }, []);
 
-  // Call this after login
   const handleLogin = () => {
     localStorage.setItem("isLoggedIn", "true");
     localStorage.setItem("currentUser", JSON.stringify({ name: "John" }));
-    setIsLoggedIn(true); // immediately update state
+    setIsLoggedIn(true);
     navigate("/booking");
   };
 
   const handleLogout = () => {
     localStorage.removeItem("isLoggedIn");
     localStorage.removeItem("currentUser");
-    setIsLoggedIn(false); // update state to rerender Navbar
-    navigate("/login"); // navigate programmatically
+    setIsLoggedIn(false);
+    navigate("/login");
   };
 
   return (
-    <nav className="flex justify-between items-center px-10 py-4 shadow">
-      <h1 className="text-2xl font-bold text-blue-600">HotelHunt</h1>
-      <div className="flex gap-6 text-gray-700 font-medium">
-        <Link to={"/home"} className="cursor-pointer hover:text-blue-600">
-          Home
-        </Link>
-        <Link to={"/hotels"} className="cursor-pointer hover:text-blue-600">
-          Hotels
-        </Link>
-        <Link to={"/contact"} className="cursor-pointer hover:text-blue-600">
-          Contact
-        </Link>
-        <Link to={"/booking"} className="cursor-pointer hover:text-blue-600">
-          Booking
-        </Link>
-        {!isLoggedIn ? (
-          <>
-            <Link to={"/signup"} className="cursor-pointer hover:text-blue-600">
-              Signup
+    <nav className="sticky top-0 z-50 backdrop-blur-lg bg-gradient-to-r from-black via-gray-900 to-black border-b border-white/10">
+      <div className="flex justify-between items-center px-10 py-4">
+        {/* Logo */}
+        <h1 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+          HotelHunt
+        </h1>
+
+        {/* Links */}
+        <div className="flex items-center gap-8 text-gray-300 font-medium">
+          {[
+            { name: "Home", path: "/home" },
+            { name: "Hotels", path: "/hotels" },
+            { name: "Booking", path: "/booking" },
+          ].map((item) => (
+            <Link key={item.name} to={item.path} className="relative group">
+              {item.name}
+              <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
             </Link>
+          ))}
+
+          {!isLoggedIn ? (
+            <>
+              <Link to="/signup" className="relative group">
+                Signup
+                <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-purple-400 transition-all duration-300 group-hover:w-full"></span>
+              </Link>
+
+              <button
+                onClick={handleLogin}
+                className="px-4 py-1.5 rounded-lg font-semibold text-black bg-gradient-to-r from-cyan-400 to-purple-400 hover:scale-105 transition-transform duration-300"
+              >
+                Login
+              </button>
+            </>
+          ) : (
             <button
-              onClick={handleLogin}
-              className="cursor-pointer hover:text-blue-600"
+              onClick={handleLogout}
+              className="px-4 py-1.5 rounded-lg font-semibold text-white bg-gradient-to-r from-red-500 to-pink-500 hover:scale-105 transition-transform duration-300"
             >
-              Login
+              Logout
             </button>
-          </>
-        ) : (
-          <>
-            <button onClick={handleLogout}>Logout</button>
-          </>
-        )}
+          )}
+        </div>
       </div>
     </nav>
   );

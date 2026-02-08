@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-14 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         {/* Brand */}
         <div>
-          <h2 className="text-2xl font-bold text-sky-400 mb-3">StayEase</h2>
+          <h2 className="text-2xl font-bold text-sky-400 mb-3">HotelHunt</h2>
           <p className="text-sm leading-relaxed">
             Book luxury hotels, budget stays, and resorts at the best prices.
             Your comfort is our priority.

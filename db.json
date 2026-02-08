@@ -143,6 +143,15 @@
       "rooms": 1,
       "adults": 1,
       "children": 0
+    },
+    {
+      "id": "0bd6",
+      "mylocate": "Bhopal",
+      "mycheckin": "2026-02-17",
+      "mycheckout": "2026-02-27",
+      "rooms": 1,
+      "adults": 1,
+      "children": 0
     }
   ],
   "hotels-data": [
@@ -468,6 +477,19 @@
       "phone": "6456376888",
       "gstDetails": false,
       "loggedUser": "ayushbhoware@05gmail.com"
+    },
+    {
+      "id": "f782",
+      "title": "Mr",
+      "firstName": "Ayush ",
+      "lastName": "Bhoware",
+      "email": "ayush@05gmail.com",
+      "countryCode": "+91",
+      "phone": "7038795585",
+      "gstDetails": false,
+      "hotelId": "13",
+      "hotelName": "Hotel Amer Palace",
+      "loggedUser": "ayush@05gmail.com"
     }
   ]
 }
